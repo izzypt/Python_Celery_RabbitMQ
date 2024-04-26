@@ -11,6 +11,8 @@ Celery and RabbitMQ are two powerful tools often used together in the realm of d
   - ![image](https://github.com/izzypt/Python_Celery_RabbitMQ/assets/73948790/d3e667c9-8f87-4441-b73e-8fbf85b5a8ca)
   - A message is the data transported between the sender and receiver.
   - An example of a message could be a party of the system, telling another part of the system to start a task (an image scaling request or logs that should be stored).
+  - <img width="1411" alt="image" src="https://github.com/izzypt/Python_Celery_RabbitMQ/assets/73948790/96643edb-4039-44bb-ab62-7125ae5e688e">
+
 
 
 

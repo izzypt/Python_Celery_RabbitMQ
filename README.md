@@ -2,6 +2,10 @@
 
 Celery and RabbitMQ are two powerful tools often used together in the realm of distributed computing and task queue management, especially within the Python ecosystem.
 
+ > Distributed computing refers to the use of multiple computers or nodes working together in a network to solve a computational problem or perform a task. Instead of relying on a single powerful machine, distributed computing distributes the workload across multiple machines, which can be located in different geographical locations.
+
+> Task queue management involves managing a queue of tasks that need to be executed asynchronously by one or more workers. It provides a mechanism for distributing, prioritizing, and executing tasks in a controlled manner.
+
 ### Let's understand (queues/message queueing)
 
 This video explain very well the below:

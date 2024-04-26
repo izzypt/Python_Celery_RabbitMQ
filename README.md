@@ -4,6 +4,9 @@ Celery and RabbitMQ are two powerful tools often used together in the realm of d
 
 ### Let's understand (queues/message queueing)
 
+This video explain very well the below:
+  - https://www.youtube.com/watch?v=5-Rq4-PZlew
+
 - A queue is a line of things waiting to be handled. Starts at the beggining of the line and is processed in sequential order.
   - Like a queue of people or cars:
   - ![image](https://github.com/izzypt/Python_Celery_RabbitMQ/assets/73948790/9d53f021-3947-4793-a1ef-f0a26d03bbf3)
@@ -13,7 +16,13 @@ Celery and RabbitMQ are two powerful tools often used together in the realm of d
   - An example of a message could be a party of the system, telling another part of the system to start a task (an image scaling request or logs that should be stored).
   - <img width="1411" alt="image" src="https://github.com/izzypt/Python_Celery_RabbitMQ/assets/73948790/96643edb-4039-44bb-ab62-7125ae5e688e">
 
+### The basic architecture of a message queue
 
+- Producers create messages and  and deliver them to the message queue.
+- Consumers connect to the queue and subscribe messages from the queue.
+- Messages placed onto the queue are stored until the consumer acknowledge them (i.e, the consumer tells the message broker that the message has been received or handled).
+
+A message queue provides an asynchronous communication protocol, meaning that one system puts a message onto a message queue and does not require an immediate response to  continue processing.
 
 
 ### What is Celery? 

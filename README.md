@@ -2,6 +2,16 @@
 
 Celery and RabbitMQ are two powerful tools often used together in the realm of distributed computing and task queue management, especially within the Python ecosystem.
 
+### Let's understand (queues/message queueing)
+
+- A queue is a line of things waiting to be handled. Starts at the beggining of the line and processed in sequential order.
+  - Like a queue of people or cars:
+  - ![image](https://github.com/izzypt/Python_Celery_RabbitMQ/assets/73948790/9d53f021-3947-4793-a1ef-f0a26d03bbf3)
+- A message queue also called a message broker is a queue of messages placed between 2 parts of the system, in order for them to communicate with each other:
+  - ![image](https://github.com/izzypt/Python_Celery_RabbitMQ/assets/73948790/d3e667c9-8f87-4441-b73e-8fbf85b5a8ca)
+
+
+
 ### What is Celery? 
 
 - Celery is a distributed task queue framework for Python, which allows you to run asynchronous tasks in a distributed manner across multiple workers. 

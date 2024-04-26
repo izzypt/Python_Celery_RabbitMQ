@@ -26,7 +26,7 @@ A message queue provides an asynchronous communication protocol, meaning that on
 
 
 ### What is Celery? 
-
+(https://www.youtube.com/watch?v=hFIkEGtW6vE - high level overview)
 <img width="1120" alt="image" src="https://github.com/izzypt/Python_Celery_RabbitMQ/assets/73948790/b4377ce3-f102-4c42-9519-eb4c789cf363">
 
 

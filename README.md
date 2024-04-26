@@ -54,6 +54,9 @@ A message queue provides an asynchronous communication protocol, meaning that on
     - Celery supports periodic tasks, which are managed by a scheduler.
     - The default scheduler in Celery is Celery Beat.
    
+  - <img width="1465" alt="image" src="https://github.com/izzypt/Python_Celery_RabbitMQ/assets/73948790/28b5f0b9-2448-45c6-8c0f-187d179f3968">
+
+   
 ### Why use Celery? 
 
 - Celery simplifies the process of distributing tasks across multiple workers, making it easier to scale your application horizontally.

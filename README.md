@@ -27,6 +27,9 @@ A message queue provides an asynchronous communication protocol, meaning that on
 
 ### What is Celery? 
 
+<img width="1120" alt="image" src="https://github.com/izzypt/Python_Celery_RabbitMQ/assets/73948790/b4377ce3-f102-4c42-9519-eb4c789cf363">
+
+
 - Celery is a distributed task queue framework for Python, which allows you to run asynchronous tasks in a distributed manner across multiple workers. 
 - These tasks can be anything from small data processing operations to complex, long-running computations.
 - Some important concepts in celery are:

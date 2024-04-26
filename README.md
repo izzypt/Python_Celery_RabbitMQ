@@ -29,3 +29,19 @@ Celery and RabbitMQ are two powerful tools often used together in the realm of d
 - Celery simplifies the process of distributing tasks across multiple workers, making it easier to scale your application horizontally.
 - It helps in decoupling different parts of your application, allowing for better scalability and fault tolerance.
 - Additionally, Celery provides monitoring and management tools to monitor the status of tasks and workers.
+
+### What is RabbitMQ? 
+
+- RabbitMQ is a message broker that implements the Advanced Message Queuing Protocol (AMQP). 
+- It acts as a middleman between producers and consumers of messages, allowing them to communicate asynchronously and reliably.
+- Some important concepts in RabbitMQ are:
+
+  - <ins>Queues</ins>:
+    - Queues are the basic building blocks of RabbitMQ.
+    - They store messages that are sent by producers and consumed by consumers.
+  - <ins>Exchanges</ins>:
+    - Exchanges receive messages from producers and route them to one or more queues based on routing rules defined by the exchange type.
+  - <ins>Bindings</ins>:
+    - Bindings define the relationship between exchanges and queues, specifying which queues should receive messages from which exchanges.
+  - <ins>Consumers</ins>:
+    - Consumers are applications that receive and process messages from queues. 
